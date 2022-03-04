@@ -1,18 +1,61 @@
 {
     "users":[
         {
-            "nom_complet":"Birane Baila Wane",
+            "nom":"Wane",
+            "prenom":"Birane Baila ",
             "login":"joeur@gmail.com",
             "password":"joeur",
             "role":"ROLE_JOUEUR",
             "score":15
         },
         {
-            "nom_complet":"Aissatou faye",
+            "nom":" faye",
+            "prenom":"ilimane",
             "login":"admin@gmail.com",
             "password":"admin",
             "role":"ROLE_ADMIN",
+            "score":56
+        }
+        ,
+        {
+            "nom":"Faye",
+            "prenom":"Moustapha",
+            "login":"moustapha@gmail.com",
+            "password":"mousta",
+            "role":"ROLE_ADMIN",
             "score":0
+        },
+        {
+            "nom":"sall",
+            "prenom":"Sokhna",
+            "login":"ilimane@gmail.com",
+            "password":"ilim",
+            "role":"ROLE_JOUEUR",
+            "score":15
+        },
+        {
+            "nom":"khale",
+            "prenom":"papa demba",
+            "login":"rpd@gmail.com",
+            "password":"rpd",
+            "role":"ROLE_JOUEUR",
+            "score":15
+        }
+        ,{
+            "nom":"Fall",
+            "prenom":"Moussa",
+            "login":"Moussa@gmail.com",
+            "password":"Moussa",
+            "role":"ROLE_JOUEUR",
+            "score":15
+        },
+        {
+            "nom":"Tall",
+            "prenom":"Ali",
+            "login":"Ali@gmail.com",
+            "password":"Ali",
+            "role":"ROLE_JOUEUR",
+            "score":15
         }
     ]
 }

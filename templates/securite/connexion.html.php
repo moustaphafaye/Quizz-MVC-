@@ -1,35 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- importer le fichier de style -->
-    <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.connexion.css"?>" media="screen" type="text/css" />
-    <title>Document</title>
-</head>
-<body>
-</head>
-    <body>
+<?php
+ require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."header.inc.html.php");
+    if(isset($_SESSION[KEY_ERRORS])){
+        $errors=$_SESSION[KEY_ERRORS];
+        unset($_SESSION[KEY_ERRORS]);
+    }
+ ?>
+  <div id="pp">Le plaisir de jouer</div>
         <div id="container">
             <!-- zone de connexion -->
-            
+           
             <form action="<?=WEB_ROOT?>" method="POST">
             <input type="hidden" name="controller" value="securite">
             <input type="hidden" name="action" value="connexion">
-                <h1>Connexion</h1>
+                <div id="hh1"><h1>Login Form</h1></div>
+                <div id="inpp">
+                <?php if(isset($errors['connexion'])):?>
+                <p style='color:red'><?=$errors['connexion'];?></p>
+                <?php endif?>
                 
-                <label><b>Nom d'utilisateur</b></label>
-                <input type="text" placeholder="Entrer le nom d'utilisateur" name="login" >
-
-                <label><b>Mot de passe</b></label>
-                <input type="password" placeholder="Entrer le mot de passe" name="password" >
-
-                <input type="submit" id='submit' value='LOGIN' >
+                <input type="text" placeholder="Login" name="login" >
+                <?php if(isset($errors['login'])):?>
+                <p style="color:red"><?=$errors['login'];?></p>
+                <?php endif?>
                 
+                <input type="password" placeholder="Password" name="password" >
+                <?php if(isset($errors['password'])):?>
+                <p style="color:red"><?=$errors['password'];?></p>
+                <?php endif?>
+                </div>
+                <div id="fin">
+                    <div><input type="submit" id='submit' value='Connexion' ></div>
+                    <div id="aa"><a href="">S'inscrire pour jouer</a></div>
+                </div>
             </form>
         </div>
-        <script src="<?=WEB_PUBLIC."js".DIRECTORY_SEPARATOR."script.js"?>"></script>
-    </body>
-</body>
-</html>
+ <?php
+    require_once PATH_VIEWS."include".DIRECTORY_SEPARATOR."footer.inc.html.php";
+ ?>
+       
