@@ -16,7 +16,7 @@ define("PATH_DB",ROOT."data".DIRECTORY_SEPARATOR."db.json");
 /**
 * Chemin sur le dossier public , pour inclusion des images,css et js
 */
-define("WEB_ROOT",str_replace("index.php","",$_SERVER['SCRIPT_NAME']));
+//define("WEB_ROOT",str_replace("index.php","",$_SERVER['SCRIPT_NAME']));
 /**
 * Requettes POST et GET
 */

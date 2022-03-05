@@ -4,7 +4,7 @@
             "nom":"Wane",
             "prenom":"Birane Baila ",
             "login":"joeur@gmail.com",
-            "password":"joeur",
+            "password":"J5oeur",
             "role":"ROLE_JOUEUR",
             "score":15
         },
@@ -12,7 +12,7 @@
             "nom":" faye",
             "prenom":"ilimane",
             "login":"admin@gmail.com",
-            "password":"admin",
+            "password":"A5dmin",
             "role":"ROLE_ADMIN",
             "score":56
         }

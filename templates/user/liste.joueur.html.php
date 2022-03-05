@@ -1,8 +1,11 @@
 
- 
+ <?php
+ //require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."header.inc.html.php");
+ ?>
 
     <div style="margin:20px 50px">
-        <table>
+        <h2> la liste des joueurs</h2>
+        <table >
             <tr>
                 <th>Nom</th>
                 <th>Prenom</th>

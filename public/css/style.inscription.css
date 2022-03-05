@@ -1,0 +1,137 @@
+
+ 
+  #containerr{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 0 10% 0 15%;
+    width: 70%;
+    height: 88vh;
+    display: flex;
+}
+#letf{
+    flex: 2;
+    flex-direction: column;
+    display: flex;
+    background-color: bisque;
+}
+#right{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    background-color: blueviolet;
+}
+#right1{
+    flex: 1;
+    background-color: aquamarine;
+}
+#right2{
+    flex: 1;
+    display: flex;
+    background-color: aqua; 
+}
+#letf1{
+    flex: 0.5;
+    border: solid 1px red;
+}
+#letf2{
+    flex: 4;
+    border: 1px solid green;
+} 
+#form-ins{
+    height: auto;
+}
+
+
+
+/* #contain{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 0 10% 0 15%;
+    width: 70%;
+    height: 85vh;
+    display: flex;
+}
+#letf{
+    flex: 2;
+    flex-direction: column;
+    display: flex;
+    background-color: bisque;
+}
+#right{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    background-color: blueviolet;
+}
+#right1{
+    flex: 1;
+    background-color: aquamarine;
+}
+#right2{
+    flex: 1;
+    display: flex;
+    background-color: aqua; 
+}
+ #principal{
+   
+    height: 98vh;
+    width: 100%;
+    background-color: blue;
+} 
+#letf1{
+    flex: 0.5;
+    border: solid 1px red;
+}
+#letf2{
+    flex: 4;
+    border: 1px solid green;
+}
+.form{
+    height: ;
+    
+}
+.form-control{
+    flex: 1;
+    border: 1px solid fuchsia;
+    /* margin-bottom: 10px;
+    padding-bottom: 20px; 
+}
+.form-control label{
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+}
+#control-form{
+    justify-content: space-between;
+    display: flex;
+}
+.form-control input{
+    border: 2px solid #927676;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    padding: 5px;
+    font-size: 8px;
+   
+}
+.btn1_2{
+    border-radius: 5px;
+    background-color: rgb(20, 148, 187);
+    font-size: 30px;
+    color: white;
+}
+.form-control small{
+     color: var(--error-color); 
+     position: absolute;
+    bottom: 0;
+    left: 0; 
+    visibility: hidden;
+}
+#btn1{
+    margin-left: 40%;
+    margin-top: 3%;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/

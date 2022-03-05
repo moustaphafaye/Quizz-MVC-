@@ -22,6 +22,9 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
             include(PATH_VIEWS."securite".DIRECTORY_SEPARATOR."connexion.html.php"); 
          }elseif($_REQUEST['action']=='deconnexion'){
                 logout();
+         }elseif($_REQUEST['action']=='inscription'){
+            
+            include(PATH_VIEWS."user".DIRECTORY_SEPARATOR."inscription.html.php"); 
          }
      }else{
         include(PATH_VIEWS."securite".DIRECTORY_SEPARATOR."connexion.html.php"); 
@@ -36,6 +39,7 @@ function connexion(string $login,string $password):void{
         valid_email('login',$login,$errors);
     }
     champ_obligatoire('password',$password,$errors,"le mot de pass est aussi obligatoir"); 
+    valid_password('password',$password,$errors,"les critéres du password sont invalides");
      if(count($errors)==0){
          //Appel du fonction model
          

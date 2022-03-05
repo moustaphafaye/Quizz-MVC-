@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.accueil.css"?>" media="screen" type="text/css" />
     <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.connexion.css"?>" media="screen" type="text/css" />
+    <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.inscription.css"?>" media="screen" type="text/css" />
+    <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.liste.css"?>" media="screen" type="text/css" />
     <title>Quizz APP</title>
 </head>
 <body>
-    
+<div id="pp">Le plaisir de jouer</div>

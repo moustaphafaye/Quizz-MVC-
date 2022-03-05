@@ -11,18 +11,17 @@
 <?php
  require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."header.inc.html.php");
  ?>
- <div id="pp">Le plaisir de jouer</div>
  
 
   <div id="centre">
       <div id="parametre">
-       <div class="vide"></div><div id="text"><p>CRÉER ET PARAMÉRTER VOS QUIZZ</p></div> <div class="vide"><button><a href="<?=WEB_ROOT."?controller=securite&action=deconnexion"?>">Deconnexion</a></button></ul></div>
+       <div class="vide"></div><div id="text"><p>CRÉER ET PARAMÉRTER VOS QUIZZ</p></div> <div class="vide"><button id="boto_accueil"><a href="<?=WEB_ROOT."?controller=securite&action=deconnexion"?>">Deconnexion</a></button></ul></div>
       </div>
       <div id="deux">
             <div id="const">
               <div id="const1"> 
                <div id="profit">
-                 
+                 <img src="<?= WEB_PUBLIC."img".DIRECTORY_SEPARATOR.""?>" alt="le photo">
                </div>
                <div id="list">
                <div class="list_ul">
