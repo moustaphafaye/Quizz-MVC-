@@ -1,7 +1,16 @@
 table {
-   
+    border: 1px solid rgb(104, 102, 102);
     width: 100%;
+    border-radius: 2px;
+    height: 45vh;
+    /* display: flex; */
+    
 }
-th ,td {
-    border: 2px solid green;
+
+.suivant_liste{
+    background-color: rgb(24, 212, 150);
+    border-radius: 2px;
+    border: none;
+    float: right;
+    color: white;
 }

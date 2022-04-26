@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.divheadFormQuest{
+    height: 10%;
+    display: flex;
+    
+    align-items: center;
+}
+
+.typeReponse:focus{
+    outline: none;
+}
+.typeReponse{
+    width: 60%;
+    height: 66%;
+    border-top: none;
+    border-left: none;
+    border-bottom: 0.5px solid aqua;
+    border-right: 0.5px solid aqua;
+}
+.headFormQuestion{
+    margin-left: 2em;
+    height: 70vh;
+    overflow-y: scroll;
+    width: 90%;
+}
+.para_span{
+    color: rgb(59, 226, 226);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img_ajout{
+   margin: 1.5%;
+
+}
+#nbPoint:focus{
+    outline: none;
+}
+#nbPoint{
+    outline: none;
+    width: 30%;
+    height: 40%;
+    border-top: none;
+    border-left: none;
+    border-bottom: 0.5px solid aqua;
+    border-right: 0.5px solid aqua;
+}
+.questionTitre:focus{
+    outline: none;
+
+}
+.questionTitre{
+    height: 80%;
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-bottom: 0.5px solid aqua;
+    border-right: 0.5px solid aqua;
+
+}
+.formEditQuestion{
+    height: 89%;
+    width: 100%;
+    border-radius: 0.2em;
+    border: solid 1px aqua;
+}
+.divAllInput{
+    height: 92%;
+    
+    border-radius: 0.5em;
+}
+
+.divInputQuest{
+    margin: auto 2px auto auto;
+    height: 12%;
+    align-items: center;
+    display: flex;  
+}
+#btn_cre{
+    background-color: rgb(10, 196, 134);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 1em;
+}
+.divButtonSave{
+    display: flex;
+    
+    justify-content: flex-end;
+}

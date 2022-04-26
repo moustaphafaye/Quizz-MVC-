@@ -1,5 +1,5 @@
 <?php
- require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."header.inc.html.php");
+//  require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."header.inc.html.php");
  
  ?>
 <?php if(isset($_SESSION[KEY_ERRORS])){
@@ -15,7 +15,7 @@
                 </div>
             
             </div>
-            <form class="formulaire_inscr" action="<?=WEB_ROOT?>" method="POST">
+            <form action="<?=WEB_ROOT?>" method="POST">
             <input type="hidden" name="controller" value="user">
             <input type="hidden" name="action" value="inscription">
             <div id="div12_insc">
@@ -54,7 +54,7 @@
             <div id="div3_inscr">
                 <div id="div33_inscri">
                     
-                    
+                   
                     <input class="boto_insct_color" id="avatar" onchange="opplode(this)" type="file" >
                 </div>
                 <div id="submitier">
@@ -65,12 +65,13 @@
       </div>
       
       <div id="div2_inscr">
-            <div id="div21_insc">
-            <label id="color_labeldiv" for="avatar"> 
-            <img class="image_insc" id="avatar_image" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."profitjoueur.png"?>" alt="" width="160px" height="150px">
+            <div id="div21_insc" class="div21_insc_phot">
+            <label id="color_labeldiv" for="avatar">
+            <img class="image_insc" id="avatar_image"  src="" alt="" width="160px" height="150px">
             </label>
-            <small >Avatar du joueur</small>
+            
             </div>
+            
             <div id="div22_insc"></div>
         </div>  
       

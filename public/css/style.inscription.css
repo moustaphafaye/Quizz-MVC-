@@ -1,137 +1,134 @@
-
- 
-  #containerr{
-    background-color: aqua;
-    border: 2px solid black;
-    margin: 0 10% 0 15%;
-    width: 70%;
-    height: 88vh;
-    display: flex;
+body{
+    background-image: url("font.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
 }
-#letf{
+.formulaire_inscr{
+    height: 80%;
+}
+#container_inscr{
+background-color: white;
+display: flex;
+
+height: 80%;
+width: 70%;
+border-bottom-left-radius: 0.3em;
+border-bottom-right-radius: 0.3em;
+margin-left: 15%;
+margin-top: 0.3%;
+/* box-shadow: 0 0 2px rgba(0, 0, 0, 0.2),
+                0 1px 0 rgba(0, 0, 0, 0.2),
+                0 3px 0 #fff,
+                0 5px 0 rgba(0, 0, 0, .2),
+                0 7px 0 #fff,  
+                0 12px 0 rgba(0, 0, 0, .2); */
+}
+.sm_1div1{
+    color: rgb(19, 16, 16);
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div1_inscr{
     flex: 2;
+    display: flex;
+    
     flex-direction: column;
-    display: flex;
-    background-color: bisque;
 }
-#right{
-    flex: 1;
-    flex-direction: column;
-    display: flex;
-    background-color: blueviolet;
+#div11_inscr{
+    margin: 1% 0% 0% 1.5%;
 }
-#right1{
-    flex: 1;
-    background-color: aquamarine;
-}
-#right2{
-    flex: 1;
-    display: flex;
-    background-color: aqua; 
-}
-#letf1{
+#div11_insc{
     flex: 0.5;
-    border: solid 1px red;
+    border-bottom: solid 1px darkgoldenrod;
 }
-#letf2{
-    flex: 4;
-    border: 1px solid green;
-} 
-#form-ins{
-    height: auto;
-}
-
-
-
-/* #contain{
-    background-color: aqua;
-    border: 2px solid black;
-    margin: 0 10% 0 15%;
-    width: 70%;
-    height: 85vh;
-    display: flex;
-}
-#letf{
-    flex: 2;
-    flex-direction: column;
-    display: flex;
-    background-color: bisque;
-}
-#right{
-    flex: 1;
-    flex-direction: column;
-    display: flex;
-    background-color: blueviolet;
-}
-#right1{
-    flex: 1;
-    background-color: aquamarine;
-}
-#right2{
-    flex: 1;
-    display: flex;
-    background-color: aqua; 
-}
- #principal{
-   
-    height: 98vh;
-    width: 100%;
-    background-color: blue;
-} 
-#letf1{
-    flex: 0.5;
-    border: solid 1px red;
-}
-#letf2{
-    flex: 4;
-    border: 1px solid green;
-}
-.form{
-    height: ;
+#div3_inscr{
+    flex: 1.5;
+    /* display: flex; */
+    margin: 0% 3%;
     
 }
-.form-control{
-    flex: 1;
-    border: 1px solid fuchsia;
-    /* margin-bottom: 10px;
-    padding-bottom: 20px; 
-}
-.form-control label{
-    color: #777;
-    display: block;
-    margin-bottom: 5px;
-}
-#control-form{
-    justify-content: space-between;
+#div33_inscri{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.form-control input{
-    border: 2px solid #927676;
-    border-radius: 10px;
-    display: block;
-    width: 50%;
-    padding: 5px;
-    font-size: 8px;
-   
+#bodiv_inscr{
+    height: 2em;
 }
-.btn1_2{
-    border-radius: 5px;
-    background-color: rgb(20, 148, 187);
-    font-size: 30px;
+#submitier{
+    display: flex;
+    justify-content: center;
+}
+#div12_insc{
+    
+    flex: 4;
+    
+}
+.small_insc_l{
+font-size:0.5%;
+ color:red;
+ font-weight: bolder;
+}
+#file{
+    
+   display: none;
+}
+/* #color_labeldiv{
     color: white;
+    background-color: rgb(18, 159, 224);
 }
-.form-control small{
-     color: var(--error-color); 
-     position: absolute;
-    bottom: 0;
-    left: 0; 
+ */
+#avatar{
     visibility: hidden;
 }
-#btn1{
-    margin-left: 40%;
-    margin-top: 3%;
-    font-size: 40px;
+ .label_ins{
+    font-size: 10px;
 }
-h2{
+.boto_insct_color{
+    border: none;
+    color: white;
+    background-color: rgb(18, 159, 224);
+    border-radius: 0.2em;
+}
+.image_insc{
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 4em;
+    border: solid 2px aqua;
+    margin-top: 12%;
+}
+#div21_insc{
+    
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}*/
+    flex-direction: column;
+}
+#div22_insc{
+    flex: 1;
+    
+}
+#div2_inscr{
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+   
+}
+#inscr_form{
+   
+    margin: 0 2%;
+}
+.form_incr:hover{
+ border: 1px solid rgb(77, 77, 184);
+}
+.form_incr{
+    border: solid 1px darkgray;
+    width: 95%;
+    height: 5.5vh;
+    border-radius: 0.3em;
+}

@@ -7,6 +7,9 @@
             case "user" :
                 require_once(PATH_SRC."controllers/user.controllers.php");
             break;
+            case "question":
+                require_once(PATH_SRC."controllers/question.controllers.php");
+                break;
             default:
                 echo 'votre choix est invalide';
             break;

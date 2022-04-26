@@ -8,6 +8,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
            $password=$_POST['password'];
            connexion($login,$password);
            
+           
           }
       }
 
@@ -50,7 +51,7 @@ function connexion(string $login,string $password):void{
             $_SESSION[KEY_USER_CONNEXION]=$user;
             
             header("location:".WEB_ROOT."?controller=user&action=accueil");
-            echo "location:".WEB_ROOT."?controller=user&action=accueil";
+            // echo "location:".WEB_ROOT."?controller=user&action=accueil";
             exit();
         }
         //l'utilisateur  n'existe pas

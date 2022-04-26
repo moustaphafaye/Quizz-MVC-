@@ -17,3 +17,6 @@ function find_users(string $role):array{
     }
     return  $result;
     }
+   function add_user(array $data):void{
+       array_to_json('users',$data);
+    }

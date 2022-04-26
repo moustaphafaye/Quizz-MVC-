@@ -1,61 +1,281 @@
 {
-    "users":[
+    "users": [
         {
-            "nom":"Wane",
-            "prenom":"Birane Baila ",
-            "login":"joeur@gmail.com",
-            "password":"J5oeur",
-            "role":"ROLE_JOUEUR",
-            "score":15
+            "nom": " faye",
+            "prenom": "ilimane",
+            "login": "admin@gmail.com",
+            "password": "A5dmin",
+            "role": "ROLE_ADMIN",
+            "score": 6000
         },
         {
-            "nom":" faye",
-            "prenom":"ilimane",
-            "login":"admin@gmail.com",
-            "password":"A5dmin",
-            "role":"ROLE_ADMIN",
-            "score":56
+            "nom": "Faye",
+            "prenom": "Moustapha",
+            "login": "moustapha@gmail.com",
+            "password": "mousta",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "sall",
+            "prenom": "Sokhna",
+            "login": "ilimane@gmail.com",
+            "password": "ilim",
+            "role": "ROLE_JOUEUR",
+            "score": 45
+        },
+        {
+            "nom": "khale",
+            "prenom": "papa demba",
+            "login": "rpd@gmail.com",
+            "password": "rpd",
+            "role": "ROLE_JOUEUR",
+            "score": 123
+        },
+        {
+            "nom": "khale",
+            "prenom": "papa demba",
+            "login": "rpd@gmail.com",
+            "password": "rpd",
+            "role": "ROLE_JOUEUR",
+            "score": 200
+        },
+        {
+            "nom": "hoy",
+            "prenom": "adams",
+            "login": "adam12@gmail.com",
+            "password": "Adam12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "faye",
+            "prenom": "leuz",
+            "login": "LEUZ12@gmail.com",
+            "password": "LEuZ12",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "faye",
+            "prenom": "leuz",
+            "login": "LEUZ12@gmail.com",
+            "password": "LEuZ12",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "De-donn",
+            "prenom": "Base ",
+            "login": "yabase@gmail.com",
+            "password": "1Abase",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Madio",
+            "prenom": "San",
+            "login": "coupe@gmail.com",
+            "password": "Coupe22",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Dieng",
+            "prenom": "Papa Demba",
+            "login": "demba12@gmail.com",
+            "password": "Demba12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "FAYE",
+            "prenom": "Abdoulaye",
+            "login": "Abdoulaye12@gmail.com",
+            "password": "Abdoulaye12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Data",
+            "prenom": "Mor",
+            "login": "mor67@gmail.com",
+            "password": "Dmor67",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Thiaw",
+            "prenom": "Sophi",
+            "login": "Sophi39@gmail.com",
+            "password": "Sophi39",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Faye",
+            "prenom": "Assane",
+            "login": "Assane43@gmail.com",
+            "password": "Assane43",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Mendy",
+            "prenom": "Eledy",
+            "login": "eledy89@gmail.com",
+            "password": "Eledy89",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "FAYE",
+            "prenom": "Awa ",
+            "login": "Awaf89@gmail.com",
+            "password": "Awaf89",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "koulibaly",
+            "prenom": "Karim",
+            "login": "Koulibaly09@gmail.com",
+            "password": "Koulibaly09",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "FAYE",
+            "prenom": "Moussa",
+            "login": "moussa900@gmail.com",
+            "password": "mOussa90",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "FAYE",
+            "prenom": "Souleymane",
+            "login": "souley02@gmail.com",
+            "password": "Souley02",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Diatta",
+            "prenom": "bassir",
+            "login": "Diatt99@gmail.com",
+            "password": "Diatt99",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Mbalo",
+            "prenom": "alassane",
+            "login": "Allan45@gmail.com",
+            "password": "Allan45",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "gora",
+            "prenom": "bouba",
+            "login": "gora00@gmail.com",
+            "password": "Gora00",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "ndaiye",
+            "prenom": "Abdou",
+            "login": "lorau89@gmail.com",
+            "password": "lOrau89",
+            "role": "ROLE_JOUEUR",
+            "score": 0
         }
-        ,
+    ],
+    "questions": [
         {
-            "nom":"Faye",
-            "prenom":"Moustapha",
-            "login":"moustapha@gmail.com",
-            "password":"mousta",
-            "role":"ROLE_ADMIN",
-            "score":0
+            "name": "Les langages parle par koni",
+            "reponse": [
+                "Anglais",
+                "Serere",
+                "wolof",
+                "Francais",
+                "Chinois",
+                "Ruisse"
+            ],
+            "type": "choix multiple",
+            "correct": [
+                "Serere",
+                "wolof",
+                "Francais"
+            ],
+            "nbPoint": 5
         },
         {
-            "nom":"sall",
-            "prenom":"Sokhna",
-            "login":"ilimane@gmail.com",
-            "password":"ilim",
-            "role":"ROLE_JOUEUR",
-            "score":15
+            "name": "Qui a gague la coupe d'afrique",
+            "reponse": [
+                "Senegal",
+                "camerou",
+                "gnana",
+                "cote d'ivoire"
+            ],
+            "type": "choix unique",
+            "correct": [
+                "senegal"
+            ],
+            "nbPoint": 10
         },
         {
-            "nom":"khale",
-            "prenom":"papa demba",
-            "login":"rpd@gmail.com",
-            "password":"rpd",
-            "role":"ROLE_JOUEUR",
-            "score":15
-        }
-        ,{
-            "nom":"Fall",
-            "prenom":"Moussa",
-            "login":"Moussa@gmail.com",
-            "password":"Moussa",
-            "role":"ROLE_JOUEUR",
-            "score":15
+            "name": "plat preferer de RPD",
+            "reponse": [
+                "mafe",
+                "dakhin"
+            ],
+            "type": "choix unique",
+            "correct": [
+                "senegal"
+            ],
+            "nbPoint": 10
         },
         {
-            "nom":"Tall",
-            "prenom":"Ali",
-            "login":"Ali@gmail.com",
-            "password":"Ali",
-            "role":"ROLE_JOUEUR",
-            "score":15
+            "name": " qui est Mor",
+            "reponse": [
+                "sdfr",
+                "vbbgh",
+                "vbbgh"
+            ],
+            "type": "choix multiple",
+            "correct": [
+                "vbbgh"
+            ],
+            "nbPoint": "2"
+        },
+        {
+            "name": "Qui a gagne la CAN en 2022",
+            "reponse": [
+                "Gnana",
+                "Senegal",
+                "Cote d'Ivoire"
+            ],
+            "type": "choix multiple",
+            "correct": [
+                "Senegal"
+            ],
+            "nbPoint": "5"
+        },
+        {
+            "name": "c'est la CAF",
+            "reponse": [
+                "coupe d' afrique",
+                "v bhn,j",
+                "vbgfnht,"
+            ],
+            "type": "choix multiple",
+            "correct": [
+                "coupe d' afrique"
+            ],
+            "nbPoint": "4"
         }
     ]
 }

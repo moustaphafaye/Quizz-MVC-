@@ -8,7 +8,7 @@
   
         <div id="container">
 
-                <form id="divform" action="<?=WEB_ROOT?>" method="POST">
+                <form id="divform_connex" action="<?=WEB_ROOT?>" method="POST">
                 <input type="hidden" name="controller" value="securite">
                 <input type="hidden" name="action" value="connexion">
                     <div id="hh1">
@@ -20,19 +20,23 @@
                             <?php if(isset($errors['connexion'])):?>
                             <p style='color:red'><?=$errors['connexion'];?></p>
                             <?php endif?>
-                            
-                            <input type="text" placeholder="Login" name="login" >
+                            <div class="form-control">
+                            <input class="fall" id="input_login" type="text" placeholder="Login" name="login" >
+                            <small class="hidden">dkfjig</small>
                             <?php if(isset($errors['login'])):?>
                             <p style="color:red"><?=$errors['login'];?></p>
                             <?php endif?>
-                            
-                            <input type="password" placeholder="Password" name="password" >
+                            </div>
+                            <div class="form-control">
+                            <input class="fall" type="password" id="input-password" placeholder="Password" name="password" >
+                            <small class="hidden">dkfjig</small>
                             <?php if(isset($errors['password'])):?>
                             <p style="color:red"><?=$errors['password'];?></p>
                             <?php endif?>
+                            </div>
                         </div>
                         <div id="fin">
-                            <div><input type="submit" id='submit' value='Connexion' ></div>
+                            <div><input class="submi_connect" type="submit" id='submit' value='Connexion' ></div>
                             <div id="aa"><a href="<?=WEB_ROOT."?controller=securite&action=inscription"?>">S'inscrire pour jouer</a></div>
                         </div>
                     </div>
